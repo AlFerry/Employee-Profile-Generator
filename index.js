@@ -1,32 +1,9 @@
 // Include packages needed for this application
-const inquirer = require('inquirer');
-const markdown = require('./utils/generateMarkdown');
-const fs = require('fs');
+const Manager = require('./lib/Manager');
 
-//create const to build team
-const manager = [
-    {
-        type: "input",
-        name: "manager",
-        message: "What is the team manager's name?",
-    },
-    {
-        type: "input",
-        name: "managerId",
-        message: "What is the team manager's id?",
-    },
-    {
-        type: "input",
-        name: "managerEmail",
-        message: "What is the team manager's email?",
-    },
-    {
-        type: "input",
-        name: "managerOffice",
-        message: "What is the team manager's office number?",
-    },
-    
-]
+//create const to build team, use employee( array of objects ) to build html page
+const employees = [];
+
 
 //  Actions need
 
@@ -35,7 +12,7 @@ const manager = [
     // Prompt the user for the data
 
         // THEN create and store an object for the Manager
-
+        employees.push( new Manager( /*Pas in data from);
         // THEN "Ask what they want to do next"
 
 // Ask them for engineer info

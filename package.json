@@ -1,0 +1,29 @@
+{
+  "name": "employee-profile-generator",
+  "version": "1.0.0",
+  "description": "A command-line application that uses information about employees to generate a webpage that displays summaries for each employee.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlFerry/Employee-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlFerry/Employee-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/AlFerry/Employee-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
