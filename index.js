@@ -12,7 +12,7 @@ const employees = [];
     // Prompt the user for the data
 
         // THEN create and store an object for the Manager
-        employees.push( new Manager( /*Pas in data from);
+        employees.push( new Manager(); /*Pas in data from);
         // THEN "Ask what they want to do next"
 
 // Ask them for engineer info
@@ -41,4 +41,4 @@ const employees = [];
 
         // IF 'Be done' -> 'build an html page'
 
-// Use all of the collected employee data to build an html page
+// Use all of the collected employee data to build an html page*/
